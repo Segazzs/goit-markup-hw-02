@@ -29,6 +29,10 @@ h2 {
   letter-spacing: 0.02em;
 }
 
+.header-link-first {
+  color: #2e2f42;
+}
+
 .header-link:hover,
 .header-link:focus {
   color: #404bbf;
@@ -115,6 +119,11 @@ h2 {
   letter-spacing: 0.02em;
 }
 
+.benefits-title {
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
 .benefits-text {
   color: #434455;
 }
@@ -130,6 +139,7 @@ h2 {
 
 .item-name {
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .item-job {
@@ -142,6 +152,7 @@ h2 {
 
 .name-app {
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .type {
