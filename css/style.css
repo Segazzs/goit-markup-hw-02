@@ -25,12 +25,8 @@ h2 {
 .header-link {
   text-decoration: none;
   font-weight: 500;
-  color: #434455;
-  letter-spacing: 0.02em;
-}
-
-.header-link-first {
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 
 .header-link:hover,
@@ -131,6 +127,10 @@ h2 {
 /* TEAM */
 .team {
   background-color: #f4f4fd;
+}
+
+.section-title {
+  color: #2e2f42;
 }
 
 .team li {
