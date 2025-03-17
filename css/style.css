@@ -54,6 +54,11 @@ h2 {
   letter-spacing: 0.02em;
 }
 
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
+
 .header-address a:active {
   text-decoration: none;
 }
