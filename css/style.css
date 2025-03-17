@@ -8,11 +8,11 @@ body {
   letter-spacing: 2%;
 }
 
-button {
-  cursor: pointer;
+ul {
+  list-style: none;
 }
 
-h2 {
+.section-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -114,6 +114,7 @@ h2 {
   line-height: inherit;
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .title-button:hover,
