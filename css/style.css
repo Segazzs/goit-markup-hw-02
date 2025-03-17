@@ -1,7 +1,8 @@
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  color: #2e2f42;
+  color: #434455;
+  background-color: #ffffff;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 2%;
@@ -11,39 +12,58 @@ button {
   cursor: pointer;
 }
 
+h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
 /* HEADER */
+
+.header-link {
+  text-decoration: none;
+  font-weight: 500;
+  color: #434455;
+  letter-spacing: 0.02em;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf;
+}
+
+.header-link:active {
+  text-decoration: underline;
+}
+
+.header-address {
+  font-style: normal;
+}
+
+.address-item {
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-address a:active {
+  text-decoration: none;
+}
 
 .logo {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
-  font-weight: 700;
   font-size: 18px;
-  line-height: 1.1;
-  letter-spacing: 3%;
-}
-
-.logo-web-color {
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   color: #4d5ae5;
 }
 
-.header a {
-  text-decoration: none;
-  color: inherit;
-  font-weight: 500;
-}
-
-.header a:hover,
-.header a:focus {
-  color: #404bbf;
-}
-
-.header a:active {
-  text-decoration: underline;
-}
-
-.header-address a:active {
-  text-decoration: none;
+.logo-web-color {
+  color: #2e2f42;
 }
 
 /* MAIN */
@@ -70,6 +90,7 @@ button {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .title-button {
@@ -79,12 +100,26 @@ button {
   font-size: 16px;
   font-weight: 500;
   line-height: inherit;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+}
+
+.title-button:hover,
+.title-button:focus {
+  background-color: #404bbf;
 }
 
 /* BENEFITS */
 
-/* TEAM */
+.benefits {
+  letter-spacing: 0.02em;
+}
 
+.benefits-text {
+  color: #434455;
+}
+
+/* TEAM */
 .team {
   background-color: #f4f4fd;
 }
@@ -93,7 +128,26 @@ button {
   background-color: #fff;
 }
 
+.item-name {
+  letter-spacing: 0.02em;
+}
+
+.item-job {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 /* PORTFOLIO */
+
+.name-app {
+  letter-spacing: 0.02em;
+}
+
+.type {
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 
 /* FOOTER */
 
@@ -102,6 +156,11 @@ footer {
   color: white;
 }
 
-footer .logo {
-  color: white;
+footer .logo-web-color {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
