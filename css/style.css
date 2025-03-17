@@ -1,0 +1,107 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #2e2f42;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* HEADER */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: 3%;
+}
+
+.logo-web-color {
+  color: #4d5ae5;
+}
+
+.header a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+}
+
+.header a:hover,
+.header a:focus {
+  color: #404bbf;
+}
+
+.header a:active {
+  text-decoration: underline;
+}
+
+.header-address a:active {
+  text-decoration: none;
+}
+
+/* MAIN */
+
+/* TITLE */
+
+.main p {
+  font-weight: 400;
+}
+
+.main h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.title {
+  background-color: #2e2f42;
+}
+
+.title h1 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+
+.title-button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  letter-spacing: 4%;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: inherit;
+}
+
+/* BENEFITS */
+
+/* TEAM */
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team li {
+  background-color: #fff;
+}
+
+/* PORTFOLIO */
+
+/* FOOTER */
+
+footer {
+  background-color: #2e2f42;
+  color: white;
+}
+
+footer .logo {
+  color: white;
+}
